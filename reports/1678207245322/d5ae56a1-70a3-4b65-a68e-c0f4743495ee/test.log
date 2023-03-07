@@ -1,0 +1,10 @@
+[2023-03-07 04:40:49] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-07 04:40:49] [1] [INFO] TEST [Carina - signInTest] STARTED at [20:40:49 2023-03-07]
+[2023-03-07 04:40:49] [1] [INFO] Starting driver session...
+[2023-03-07 04:40:52] [1] [INFO] Driver session started.
+[2023-03-07 04:40:52] [1] [INFO] INFO: opening url 'https://www.facebook.com/'
+[2023-03-07 04:40:56] [1] [INFO] PASS: keys 'saba_evgenidze@mail.ru' are sent to element 'emailField'.
+[2023-03-07 04:40:57] [1] [INFO] PASS: keys 'ylepia123456789' are sent to element 'passField'.
+[2023-03-07 04:40:58] [1] [INFO] PASS: element 'logInButton' is clicked.
+[2023-03-07 04:41:04] [1] [WARN] Unable to capture screenshot during 6 sec!
+[2023-03-07 04:41:04] [1] [INFO] TEST [Carina - signInTest] PASSED at [20:41:04 2023-03-07]

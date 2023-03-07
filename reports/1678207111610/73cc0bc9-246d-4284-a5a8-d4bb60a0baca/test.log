@@ -1,0 +1,9 @@
+[2023-03-07 04:38:35] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-07 04:38:35] [1] [INFO] TEST [Carina - signInTest] STARTED at [20:38:35 2023-03-07]
+[2023-03-07 04:38:35] [1] [INFO] Starting driver session...
+[2023-03-07 04:38:39] [1] [INFO] Driver session started.
+[2023-03-07 04:38:39] [1] [INFO] INFO: opening url 'https://www.instagram.com/'
+[2023-03-07 04:38:46] [1] [INFO] PASS: keys 'Here is login test' are sent to element 'usernameField'.
+[2023-03-07 04:38:48] [1] [INFO] PASS: keys 'Here is password test' are sent to element 'passField'.
+[2023-03-07 04:38:49] [1] [INFO] PASS: element 'signInButton' is clicked.
+[2023-03-07 04:38:51] [1] [INFO] TEST [Carina - signInTest] PASSED at [20:38:51 2023-03-07]

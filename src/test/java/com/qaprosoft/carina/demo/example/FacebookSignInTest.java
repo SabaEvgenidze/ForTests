@@ -11,8 +11,8 @@ public class FacebookSignInTest extends AbstractTest {
     public void signInTest() {
         FacebookHomeScreen facebookHomeScreen = new FacebookHomeScreen(getDriver());
         facebookHomeScreen.open();
-        facebookHomeScreen.fillEmail("saba_evgenidze@mail.ru");
-        facebookHomeScreen.fillPasswordField("ylepia123456789");
+        facebookHomeScreen.fillEmail("email");
+        facebookHomeScreen.fillPasswordField("password");
 
         Assert.assertTrue(facebookHomeScreen.isPageOpened(), "Page isn;t opened");
     }

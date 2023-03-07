@@ -1,4 +1,4 @@
-package com.qaprosoft.carina.demo.laba.service;
+package com.qaprosoft.carina.demo.laba;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractPage;
@@ -15,7 +15,16 @@ public class YahooSignInScreen extends AbstractPage {
 
     public YahooSignInScreen(WebDriver driver) {
         super(driver);
+        setPageAbsoluteURL("https://login.yahoo.com/?.lang=en-US&src=homepage&activity=ybar-signin&pspid=2023538075&done=https%3A%2F%2Fwww.yahoo.com%2F&add=1");
     }
 
+    public void fillUserNameField(String Username){
+        userNameField.type(Username);
+    }
+
+    public YahooVerifyHomeScreen clickNextButton(){
+        nextButton.click();
+        return new YahooVerifyHomeScreen(getDriver());
+    }
 
 }

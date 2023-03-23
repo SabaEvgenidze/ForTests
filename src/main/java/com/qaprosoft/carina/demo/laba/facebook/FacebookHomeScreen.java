@@ -1,4 +1,4 @@
-package com.qaprosoft.carina.demo.laba;
+package com.qaprosoft.carina.demo.laba.facebook;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractPage;

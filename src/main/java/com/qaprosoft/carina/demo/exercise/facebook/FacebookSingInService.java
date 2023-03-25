@@ -5,7 +5,6 @@ import com.qaprosoft.carina.demo.exercise.service.User;
 import org.testng.Assert;
 
 public class FacebookSingInService implements IDriverPool {
-
     public void login(){
         User user = new User("email","password");
         FacebookHomeScreen facebookHomeScreen = new FacebookHomeScreen(getDriver());

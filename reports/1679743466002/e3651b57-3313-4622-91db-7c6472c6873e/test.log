@@ -1,0 +1,10 @@
+[2023-03-25 11:24:28] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-25 11:24:28] [1] [INFO] TEST [ForTests - loginTest] STARTED at [15:24:28 2023-03-25]
+[2023-03-25 11:24:28] [1] [INFO] Starting driver session...
+[2023-03-25 11:24:31] [1] [INFO] Driver session started.
+[2023-03-25 11:24:31] [1] [INFO] INFO: opening url 'https://practicetestautomation.com/practice-test-login/'
+[2023-03-25 11:24:34] [1] [INFO] PASS: keys 'student' are sent to element 'usernameField'.
+[2023-03-25 11:24:35] [1] [INFO] PASS: keys 'Password123' are sent to element 'passwordField'.
+[2023-03-25 11:24:38] [1] [INFO] PASS: element 'submitButton' is clicked.
+[2023-03-25 11:24:39] [1] [INFO] PASS: element 'logOutButton' is clicked.
+[2023-03-25 11:24:40] [1] [INFO] TEST [ForTests - loginTest] PASSED at [15:24:40 2023-03-25]

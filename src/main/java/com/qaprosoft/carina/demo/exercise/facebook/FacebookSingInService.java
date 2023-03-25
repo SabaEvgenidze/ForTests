@@ -7,7 +7,7 @@ import org.testng.Assert;
 public class FacebookSingInService implements IDriverPool {
 
     public void login(){
-        User user = new User("saba_evgenidze@mail.ru","ylepia123456789");
+        User user = new User("email","password");
         FacebookHomeScreen facebookHomeScreen = new FacebookHomeScreen(getDriver());
         facebookHomeScreen.open();
         facebookHomeScreen.fillEmail(user.getUser());

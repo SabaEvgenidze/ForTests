@@ -13,7 +13,7 @@ public class InstagramHomePage extends AbstractPage {
     @FindBy(xpath = "//* [@name = 'password']")
     private ExtendedWebElement passField;
 
-    @FindBy(xpath = "//*[@class = '_acan _acap _acas _aj1-']")
+    @FindBy(xpath = "//*[text() = 'Log in']")
     private ExtendedWebElement signInButton;
 
     public InstagramHomePage(WebDriver driver) {

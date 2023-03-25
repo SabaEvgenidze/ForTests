@@ -9,10 +9,10 @@ public class FacebookHomeScreen extends AbstractPage {
     @FindBy(xpath = "//*[@id = 'email']")
     private ExtendedWebElement emailField;
 
-    @FindBy(xpath = "//*[@name = 'pass']")
+    @FindBy(xpath = "//*[@id = 'pass']")
     private ExtendedWebElement passField;
 
-    @FindBy(xpath = "//*[@class = '_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy']")
+    @FindBy(xpath = "//button[text() = 'Log In']")
     private ExtendedWebElement logInButton;
 
     public FacebookHomeScreen(WebDriver driver) {

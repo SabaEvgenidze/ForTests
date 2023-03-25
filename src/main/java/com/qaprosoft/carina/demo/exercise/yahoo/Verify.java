@@ -1,4 +1,4 @@
-package com.qaprosoft.carina.demo.exercise.Yahoo;
+package com.qaprosoft.carina.demo.exercise.yahoo;
 
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;

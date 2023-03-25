@@ -1,0 +1,54 @@
+[2023-03-25 12:10:15] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-25 12:10:15] [1] [INFO] TEST [ForTests - loginTest] STARTED at [16:10:15 2023-03-25]
+[2023-03-25 12:10:15] [1] [INFO] Starting driver session...
+[2023-03-25 12:10:18] [1] [INFO] Driver session started.
+[2023-03-25 12:10:18] [1] [INFO] INFO: opening url 'https://www.yahoo.com/'
+[2023-03-25 12:10:29] [1] [INFO] PASS: element 'singInButton' is clicked.
+[2023-03-25 12:10:29] [1] [INFO] INFO: opening url 'https://login.yahoo.com/?.lang=en-US&src=homepage&activity=ybar-signin&pspid=2023538075&done=https%3A%2F%2Fwww.yahoo.com%2F&add=1'
+[2023-03-25 12:10:31] [1] [INFO] PASS: keys 'ajariswyali123@gmail.com' are sent to element 'userNameField'.
+[2023-03-25 12:10:32] [1] [INFO] PASS: element 'nextButton' is clicked.
+[2023-03-25 12:10:33] [1] [INFO] INFO: opening url 'https://login.yahoo.com/account/challenge/email-verify?.lang=en-US&src=homepage&activity=ybar-signin&pspid=2023538075&done=https%3A%2F%2Fwww.yahoo.com%2F&add=1&sessionIndex=Qw--&acrumb=i84NhghE&display=login&authMechanism=primary'
+[2023-03-25 12:10:55] [1] [ERROR] FAIL: type - waitCondition for element 'verifyCodeField (By.xpath: //*[@id = 'verification-code-field'])' not satisfied!
+[2023-03-25 12:10:56] [1] [ERROR] TEST [ForTests - loginTest] FAILED at [16:10:56 2023-03-25] - no such element By.xpath: //*[@id = 'verification-code-field']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-B70VFNS', ip: '192.168.100.84', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: unknown
+
+com.qaprosoft.carina.core.foundation.webdriver.locator.ExtendedElementLocator.findElement(ExtendedElementLocator.java:157)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+jdk.proxy2/jdk.proxy2.$Proxy56.clear(Unknown Source)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement$3.doType(ExtendedWebElement.java:1610)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.executeAction(ExtendedWebElement.java:1437)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.overrideAction(ExtendedWebElement.java:1538)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.doAction(ExtendedWebElement.java:1517)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:652)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:640)
+com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement.type(ExtendedWebElement.java:630)
+com.qaprosoft.carina.demo.exercise.yahoo.YahooVerifyHomeScreen.fillDigitalCodeField(YahooVerifyHomeScreen.java:22)
+com.qaprosoft.carina.demo.example.exercise.YahooSignInTest.loginTest(YahooSignInTest.java:26)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:806)
+org.testng.TestRunner.run(TestRunner.java:601)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)

@@ -1,4 +1,4 @@
-package com.qaprosoft.carina.demo.exercise.Yahoo;
+package com.qaprosoft.carina.demo.exercise.yahoo;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractPage;
@@ -7,11 +7,13 @@ import org.openqa.selenium.support.FindBy;
 
 public class YahooVerifyHomeScreen extends AbstractPage {
 
-    @FindBy(xpath = "//* [@class = 'input-group'] //* [@id = 'verification-code-field']")
-    ExtendedWebElement digitalCodeField;
+    @FindBy(xpath = "//*[@id = 'verification-code-field']")
+    ExtendedWebElement verifyCodeField;
 
-    @FindBy(xpath = "//*[@class = 'input-group']//*[@id ='verification-code-field']")
+    @FindBy(xpath = "//*[@id = 'verify-code-button']")
     ExtendedWebElement verifyButton;
+
+
 
     public YahooVerifyHomeScreen(WebDriver driver) {
         super(driver);
@@ -19,7 +21,7 @@ public class YahooVerifyHomeScreen extends AbstractPage {
     }
 
     public void fillDigitalCodeField(String code){
-        digitalCodeField.type(code);
+        verifyCodeField.type(code);
     }
 
     public Verify clickVerifyButton(){

@@ -1,0 +1,54 @@
+[2023-03-25 10:47:24] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-25 10:47:24] [1] [INFO] TEST [ForTests - setPostUserMethod] STARTED at [14:47:24 2023-03-25]
+[2023-03-25 10:47:27] [1] [INFO] Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/posts
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Multiparts:		<none>
+Cookies:		<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Body:
+{
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+HTTP/1.1 201 Created
+Date: Sat, 25 Mar 2023 10:47:47 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 294
+Connection: keep-alive
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1679741302
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Pragma: no-cache
+Expires: -1
+Access-Control-Expose-Headers: Location
+Location: http://jsonplaceholder.typicode.com/posts/101
+X-Content-Type-Options: nosniff
+Etag: W/"126-nr6eiZed2Jbg24tdXMANhAGcHlI"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UFYbREqdqVLtIQA7%2FnakH%2FlOidAfxqttcQ54%2FvK%2BPoGX%2Fbot98rz01hxEGQ3kbFWCV8MMqqpwr8Rfa0D3cRDWB3PCdSG%2BiM1FyoJuBeS%2FmjT7X76%2BZm%2FgNE2wAGxc%2FE8Z3sHhIf7uTD4DlGEo7zc"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7ad693ea0fd395a9-TBS
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "userId": 1,
+    "id": 101,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+[2023-03-25 10:47:27] [1] [INFO] Base properties loaded: api/users/exercise/exercise.properties
+[2023-03-25 10:47:27] [1] [INFO] TEST [ForTests - setPostUserMethod] PASSED at [14:47:27 2023-03-25]

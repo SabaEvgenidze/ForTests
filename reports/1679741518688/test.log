@@ -1,0 +1,26 @@
+[2023-03-25 10:51:58] [1] [INFO] 
+============= Test configuration =============
+url=https://www.instagram.com/
+env=DEMO
+selenium_url=http://192.168.100.84:4444
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+language=en_US
+selenium_url=http://192.168.100.84:4444
+
+------------- Driver capabilities -----------
+capabilities.providerOptions=options
+capabilities.browserName=chrome
+================================================
+
+[2023-03-25 10:51:58] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-03-25 10:52:01] [1] [INFO] [TestNG] Running:
+  C:\Users\Saba\AppData\Local\JetBrains\IdeaIC2022.3\temp-testng-customsuite.xml
+
+[2023-03-25 10:52:01] [1] [INFO] Set thread-count=1
+[2023-03-25 10:52:01] [1] [INFO] Set data-provider-thread-count=1
+[2023-03-25 10:52:01] [1] [INFO] CARINA_CORE_VERSION: 8.0.7
+[2023-03-25 10:52:06] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-03-25 10:52:06] [1] [INFO] RESULT #1: TEST [ForTests - setPostUserMethod] FAIL [log=file://C:\ForTests\ForTests\.\reports\1679741518688/8b7be0c2-bee0-4d0a-81cf-312ccd472812/test.log]

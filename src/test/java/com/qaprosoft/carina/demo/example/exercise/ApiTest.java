@@ -14,7 +14,6 @@ public class ApiTest implements IAbstractTest {
         api.validateResponse();
     }
 
-
     @Test()
     public void setGetMethod(){
         GetArticleMethod api = new GetArticleMethod();

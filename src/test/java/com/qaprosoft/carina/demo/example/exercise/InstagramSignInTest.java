@@ -1,9 +1,9 @@
 package com.qaprosoft.carina.demo.example.exercise;
 
 import com.qaprosoft.carina.core.foundation.AbstractTest;
-import com.qaprosoft.carina.demo.laba.instagram.InstagramHomePage;
-import com.qaprosoft.carina.demo.laba.instagram.InstagramSignInPage;
-import com.qaprosoft.carina.demo.laba.service.User;
+import com.qaprosoft.carina.demo.exercise.instagram.InstagramHomePage;
+import com.qaprosoft.carina.demo.exercise.instagram.InstagramSignInPage;
+import com.qaprosoft.carina.demo.exercise.service.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

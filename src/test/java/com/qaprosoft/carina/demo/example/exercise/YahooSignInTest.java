@@ -1,9 +1,9 @@
 package com.qaprosoft.carina.demo.example.exercise;
 
 import com.qaprosoft.carina.core.foundation.AbstractTest;
-import com.qaprosoft.carina.demo.laba.Yahoo.YahooHomePage;
-import com.qaprosoft.carina.demo.laba.Yahoo.YahooSignInScreen;
-import com.qaprosoft.carina.demo.laba.Yahoo.YahooVerifyHomeScreen;
+import com.qaprosoft.carina.demo.exercise.Yahoo.YahooHomePage;
+import com.qaprosoft.carina.demo.exercise.Yahoo.YahooSignInScreen;
+import com.qaprosoft.carina.demo.exercise.Yahoo.YahooVerifyHomeScreen;
 import org.testng.annotations.Test;
 
 public class YahooSignInTest extends AbstractTest {

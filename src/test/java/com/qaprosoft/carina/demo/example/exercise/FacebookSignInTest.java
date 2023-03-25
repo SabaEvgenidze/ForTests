@@ -1,7 +1,7 @@
 package com.qaprosoft.carina.demo.example.exercise;
 
 import com.qaprosoft.carina.core.foundation.AbstractTest;
-import com.qaprosoft.carina.demo.laba.facebook.FacebookSingInService;
+import com.qaprosoft.carina.demo.exercise.facebook.FacebookSingInService;
 import org.testng.annotations.Test;
 
 

@@ -1,9 +1,9 @@
 package com.qaprosoft.carina.demo.example.exercise;
 
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
-import com.qaprosoft.carina.demo.laba.practiceautomation.LoginPage;
-import com.qaprosoft.carina.demo.laba.practiceautomation.UserPage;
-import com.qaprosoft.carina.demo.laba.service.User;
+import com.qaprosoft.carina.demo.exercise.practiceautomation.LoginPage;
+import com.qaprosoft.carina.demo.exercise.practiceautomation.UserPage;
+import com.qaprosoft.carina.demo.exercise.service.User;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

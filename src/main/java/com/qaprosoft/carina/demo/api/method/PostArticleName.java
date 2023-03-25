@@ -9,10 +9,10 @@ import com.qaprosoft.carina.core.foundation.api.http.HttpMethodType;
 import com.qaprosoft.carina.core.foundation.api.http.HttpResponseStatusType;
 import com.zebrunner.carina.utils.Configuration;
 
-@Endpoint(url = "${base_url}/posts", methodType = HttpMethodType.POST)
+@Endpoint(methodType = HttpMethodType.POST, url = "${base_url}/posts")
 @SuccessfulHttpStatus(status = HttpResponseStatusType.CREATED_201)
-@RequestTemplatePath(path = "api/users/exercise/_post/request.json")
-@ResponseTemplatePath(path = "api/users/exercise/_post/response.json")
+@ResponseTemplatePath(path = "api/exercise/_post/response.json")
+@RequestTemplatePath(path = "api/exercise/_post/request.json")
 public class PostArticleName extends AbstractApiMethodV2 {
     public PostArticleName(){
         replaceUrlPlaceholder("base_url", Configuration.getEnvArg("api_url"));

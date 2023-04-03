@@ -11,7 +11,7 @@ public class InstagramSignInTest extends AbstractTest {
 
     @Test
     public void signInTest(){
-        User user = new User("_saba_evgenidze_", "kvadrata123");
+        User user = new User("username", "password");
         InstagramHomePage instagramHomePage = new InstagramHomePage(getDriver());
         instagramHomePage.open();
         instagramHomePage.fillEmailField(user.getUser());

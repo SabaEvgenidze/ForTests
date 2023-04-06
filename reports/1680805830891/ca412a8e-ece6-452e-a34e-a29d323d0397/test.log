@@ -1,0 +1,39 @@
+[2023-04-06 06:30:33] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-04-06 06:30:33] [1] [INFO] TEST [ForTests - signInTest] STARTED at [22:30:33 2023-04-06]
+[2023-04-06 06:30:33] [1] [INFO] Starting driver session...
+[2023-04-06 06:30:35] [1] [INFO] Driver session started.
+[2023-04-06 06:30:35] [1] [INFO] INFO: opening url 'https://www.instagram.com/'
+[2023-04-06 06:30:38] [1] [INFO] PASS: keys 'username' are sent to element 'usernameField'.
+[2023-04-06 06:30:39] [1] [INFO] PASS: keys 'password' are sent to element 'passField'.
+[2023-04-06 06:30:40] [1] [INFO] PASS: element 'signInButton' is clicked.
+[2023-04-06 06:31:03] [1] [ERROR] TEST [ForTests - signInTest] FAILED at [22:31:03 2023-04-06] - Sign in button isn't working expected [true] but found [false]
+
+org.testng.Assert.fail(Assert.java:110)
+org.testng.Assert.failNotEquals(Assert.java:1413)
+org.testng.Assert.assertTrue(Assert.java:56)
+com.qaprosoft.carina.demo.example.exercise.InstagramSignInTest.signInTest(InstagramSignInTest.java:23)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+java.base/java.lang.reflect.Method.invoke(Method.java:578)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+org.testng.TestRunner.privateRun(TestRunner.java:806)
+org.testng.TestRunner.run(TestRunner.java:601)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)

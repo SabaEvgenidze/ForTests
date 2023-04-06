@@ -1,9 +1,0 @@
-[2023-03-25 11:55:55] [1] [WARN] Reporting disabled: using no op test run registrar
-[2023-03-25 11:55:55] [1] [INFO] TEST [ForTests - signInTest] STARTED at [15:55:55 2023-03-25]
-[2023-03-25 11:55:55] [1] [INFO] Starting driver session...
-[2023-03-25 11:55:58] [1] [INFO] Driver session started.
-[2023-03-25 11:55:58] [1] [INFO] INFO: opening url 'https://www.instagram.com/'
-[2023-03-25 11:56:01] [1] [INFO] PASS: keys '_saba_evgenidze_' are sent to element 'usernameField'.
-[2023-03-25 11:56:03] [1] [INFO] PASS: keys 'kvadrata123' are sent to element 'passField'.
-[2023-03-25 11:56:03] [1] [INFO] PASS: element 'signInButton' is clicked.
-[2023-03-25 11:56:10] [1] [INFO] TEST [ForTests - signInTest] PASSED at [15:56:10 2023-03-25]

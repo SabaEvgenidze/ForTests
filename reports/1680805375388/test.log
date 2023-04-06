@@ -1,0 +1,25 @@
+[2023-04-06 06:22:55] [1] [INFO] 
+============= Test configuration =============
+url=https://practicetestautomation.com
+env=DEMO
+selenium_url=http://192.168.100.84:4444
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+language=en_US
+selenium_url=http://192.168.100.84:4444
+
+------------- Driver capabilities -----------
+capabilities.providerOptions=options
+capabilities.browserName=chrome
+================================================
+
+[2023-04-06 06:22:55] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-04-06 06:22:57] [1] [INFO] [TestNG] Running:
+  C:\Users\ajari\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-04-06 06:22:57] [1] [INFO] Set thread-count=1
+[2023-04-06 06:22:57] [1] [INFO] Set data-provider-thread-count=1
+[2023-04-06 06:22:57] [1] [INFO] CARINA_CORE_VERSION: 8.0.7
+[2023-04-06 06:23:17] [45] [WARN] Trying to quit driver 'default' on shutdown hook action!

@@ -1,0 +1,7 @@
+[2023-04-06 06:22:57] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-04-06 06:22:57] [1] [INFO] TEST [ForTests - signInTest] STARTED at [22:22:57 2023-04-06]
+[2023-04-06 06:22:57] [1] [INFO] Starting driver session...
+[2023-04-06 06:23:00] [1] [INFO] Driver session started.
+[2023-04-06 06:23:00] [1] [INFO] INFO: opening url 'https://www.instagram.com/'
+[2023-04-06 06:23:02] [1] [INFO] PASS: keys 'username' are sent to element 'usernameField'.
+[2023-04-06 06:23:03] [1] [INFO] PASS: keys 'password' are sent to element 'passField'.

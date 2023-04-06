@@ -1,0 +1,26 @@
+[2023-04-06 06:32:21] [1] [INFO] 
+============= Test configuration =============
+url=https://practicetestautomation.com
+env=DEMO
+selenium_url=http://192.168.100.84:4444
+auto_screenshot=true
+project_report_directory=./reports
+max_screen_history=10
+localization_encoding=UTF-8
+language=en_US
+selenium_url=http://192.168.100.84:4444
+
+------------- Driver capabilities -----------
+capabilities.providerOptions=options
+capabilities.browserName=chrome
+================================================
+
+[2023-04-06 06:32:21] [1] [WARN] Reporting disabled: using no op test run registrar
+[2023-04-06 06:32:24] [1] [INFO] [TestNG] Running:
+  C:\Users\ajari\AppData\Local\JetBrains\IdeaIC2023.1\temp-testng-customsuite.xml
+
+[2023-04-06 06:32:24] [1] [INFO] Set thread-count=1
+[2023-04-06 06:32:24] [1] [INFO] Set data-provider-thread-count=1
+[2023-04-06 06:32:24] [1] [INFO] CARINA_CORE_VERSION: 8.0.7
+[2023-04-06 06:32:32] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2023-04-06 06:32:32] [1] [INFO] RESULT #1: TEST [ForTests - signInTest] PASS [screenshots=file://C:\Java\ForTests\.\reports\1680805941376/b5c5b80d-d1f9-48c9-afd7-7a6a1500add7/report.html | log=file://C:\Java\ForTests\.\reports\1680805941376/b5c5b80d-d1f9-48c9-afd7-7a6a1500add7/test.log]
